@@ -1,0 +1,35 @@
+{
+  "name": "mfcpack",
+  "version": "0.1.5",
+  "description": "Mfcpack is a packer that can compile TS files into mcfunction files",
+  "main": "./bin/src/build.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "files": [
+    "bin/"
+  ],
+  "bin": {
+    "mfcpack": "./bin/src/build.js"
+  },
+  "repository": "git://github.com/hans000/mfcpack.git",
+  "keywords": [
+    "mcfunction",
+    "minecraft",
+    "packer"
+  ],
+  "author": "hans000",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/node": "^14.0.24",
+    "@types/rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "ora": "^4.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  }
+}
