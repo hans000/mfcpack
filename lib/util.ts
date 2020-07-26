@@ -27,6 +27,9 @@ export function getRestName(fileName: string) {
 
 export function getPaths(dir: string, reg: RegExp | undefined = undefined, parent = '') {
     const list: string[] = []
+    if (!parent && !fs.existsSync(dir)) {
+        return list
+    }
     const files = fs.readdirSync(dir)
     files.forEach(file => {
         const p = `${dir}/${file}`

@@ -15,7 +15,7 @@ export default class MFunction {
             this.packName = packName
             this.restName = path.basename(restName, '.ts')
         } else {
-            throw new Error('path invalid')
+            throw new Error(`path parse error, the namespace maybe missing, ${filename}`)
         }
     }
     /**

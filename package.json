@@ -1,9 +1,9 @@
 {
   "name": "mfcpack",
-  "version": "0.1.6",
+  "version": "0.1.10",
   "description": "Mfcpack is a packer that can compile TS files into mcfunction files",
-  "main": "./bin/src/build.js",
-  "types": "./bin/src/index.d.ts",
+  "main": "./bin/lib/index.js",
+  "types": "./bin/lib/index.d.ts",
   "scripts": {
     "tsc": "tsc"
   },
@@ -11,7 +11,7 @@
     "bin/"
   ],
   "bin": {
-    "mfcpack": "./bin/src/build.js"
+    "mfcpack": "./bin/lib/build.js"
   },
   "repository": "git://github.com/hans000/mfcpack.git",
   "keywords": [
