@@ -33,6 +33,6 @@ Make sure your file directory like this
 
 ### other
 Also, you can clone this repository.
-
+https://github.com/hans000/mfcpack-demo
 
 
